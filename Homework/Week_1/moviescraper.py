@@ -8,7 +8,7 @@ This script scrapes IMDB and outputs a CSV file with highest rated movies.
 # imports libraries
 import re
 import csv
-from movie import Movie
+from movie_scraper import Movie
 from requests import get
 from requests.exceptions import RequestException
 from contextlib import closing
@@ -26,7 +26,7 @@ def extract_movies(dom):
     # parse the HTML file into a DOM representation
     boxes = dom.div.findAll("div",{"class":"lister-item-content"})
 
-    # list for all movies to remember
+    # dictionary for all movies
     all_movies = {}
 
     # iterate over all boxes containing movie info
@@ -45,7 +45,7 @@ def extract_movies(dom):
 
         # extracts actors and stores names in string
         cast = box.find_all(href=re.compile("adv_li_st"))
-        actors = ""
+        actors = ", "
         for actor in cast:
             actors = actors + actor.string + ", "
         actors = actors[:-2]

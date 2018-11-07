@@ -39,4 +39,6 @@ if __name__ == "__main__":
 
         # plots average rating per year
         plt.plot(x_axis, y_axis)
+        plt.ylabel('ratings')
+        plt.xlabel('year')
         plt.show()
