@@ -1,0 +1,873 @@
+title,runtime,genre(s),director(s),writer(s),actor(s),rating(s),number of rating(s)
+The Shawshank Redemption,2h 22min," Drama
+",Frank Darabont,Stephen King,Tim Robbins,9.3,"2,012,386"
+The Godfather,2h 55min," Crime
+,  Drama
+",Francis Ford Coppola,Mario Puzo,Marlon Brando,9.2,"1,378,925"
+The Godfather: Part II,3h 22min," Crime
+,  Drama
+",Francis Ford Coppola,Francis Ford Coppola,Al Pacino,9.0,"954,747"
+The Dark Knight,2h 32min," Action
+,  Crime
+,  Drama
+",Christopher Nolan,Jonathan Nolan,Christian Bale,9.0,"1,981,039"
+12 Angry Men,1h 36min," Crime
+,  Drama
+",Sidney Lumet,Reginald Rose,Henry Fonda,8.9,"564,131"
+Schindler's List,3h 15min," Biography
+,  Drama
+,  History
+",Steven Spielberg,Thomas Keneally,Liam Neeson,8.9,"1,038,740"
+The Lord of the Rings: The Return of the King,3h 21min," Action
+,  Adventure
+,  Drama
+",Peter Jackson,J.R.R. Tolkien,Elijah Wood,8.9,"1,432,523"
+Pulp Fiction,2h 34min," Crime
+,  Drama
+",Quentin Tarantino,Quentin Tarantino,John Travolta,8.9,"1,570,914"
+"Il buono, il brutto, il cattivo",2h 41min," Western
+",Sergio Leone,Luciano Vincenzoni,Clint Eastwood,8.9,"596,424"
+Fight Club,2h 19min," Drama
+",David Fincher,Chuck Palahniuk,Brad Pitt,8.8,"1,610,205"
+The Lord of the Rings: The Fellowship of the Ring,2h 58min," Adventure
+,  Drama
+,  Fantasy
+",Peter Jackson,J.R.R. Tolkien,Elijah Wood,8.8,"1,449,193"
+Forrest Gump,2h 22min," Drama
+,  Romance
+",Robert Zemeckis,Winston Groom,Tom Hanks,8.8,"1,532,856"
+Star Wars: Episode V - The Empire Strikes Back,2h 4min," Action
+,  Adventure
+,  Fantasy
+",Irvin Kershner,Leigh Brackett,Mark Hamill,8.8,"1,010,660"
+Inception,2h 28min," Action
+,  Adventure
+,  Sci-Fi
+",Christopher Nolan,Christopher Nolan,Leonardo DiCaprio,8.8,"1,761,048"
+The Lord of the Rings: The Two Towers,2h 59min," Adventure
+,  Drama
+,  Fantasy
+",Peter Jackson,J.R.R. Tolkien,Elijah Wood,8.7,"1,294,942"
+One Flew Over the Cuckoo's Nest,2h 13min," Drama
+",Milos Forman,Lawrence Hauben,Jack Nicholson,8.7,"799,351"
+Goodfellas,2h 26min," Crime
+,  Drama
+",Martin Scorsese,Nicholas Pileggi,Robert De Niro,8.7,"867,207"
+The Matrix,2h 16min," Action
+,  Sci-Fi
+",Lana Wachowski,Lilly Wachowski,Keanu Reeves,8.7,"1,443,780"
+Shichinin no samurai,3h 27min," Adventure
+,  Drama
+",Akira Kurosawa,Akira Kurosawa,Toshirô Mifune,8.7,"272,444"
+Cidade de Deus,2h 10min," Crime
+,  Drama
+",Fernando Meirelles,Paulo Lins,Alexandre Rodrigues,8.6,"621,822"
+Se7en,2h 7min," Crime
+,  Drama
+,  Mystery
+",David Fincher,Andrew Kevin Walker,Morgan Freeman,8.6,"1,230,014"
+Star Wars: Episode IV - A New Hope,2h 1min," Action
+,  Adventure
+,  Fantasy
+",George Lucas,George Lucas,Mark Hamill,8.6,"1,080,902"
+The Silence of the Lambs,1h 58min," Crime
+,  Drama
+,  Thriller
+",Jonathan Demme,Thomas Harris,Jodie Foster,8.6,"1,079,608"
+It's a Wonderful Life,2h 10min," Drama
+,  Family
+,  Fantasy
+",Frank Capra,Frances Goodrich,James Stewart,8.6,"337,953"
+La vita è bella,1h 56min," Comedy
+,  Drama
+,  Romance
+",Roberto Benigni,Vincenzo Cerami,Roberto Benigni,8.6,"525,814"
+The Usual Suspects,1h 46min," Crime
+,  Mystery
+,  Thriller
+",Bryan Singer,Christopher McQuarrie,Kevin Spacey,8.6,"873,419"
+De reis van Chihiro,2h 5min," Animation
+,  Adventure
+,  Family
+",Hayao Miyazaki,Hayao Miyazaki,Daveigh Chase,8.6,"529,342"
+Saving Private Ryan,2h 49min," Drama
+,  War
+",Steven Spielberg,Robert Rodat,Tom Hanks,8.6,"1,060,601"
+Léon,1h 50min," Crime
+,  Drama
+,  Thriller
+",Luc Besson,Luc Besson,Jean Reno,8.6,"882,588"
+The Green Mile,3h 9min," Crime
+,  Drama
+,  Fantasy
+",Frank Darabont,Stephen King,Tom Hanks,8.5,"963,252"
+Interstellar,2h 49min," Adventure
+,  Drama
+,  Sci-Fi
+",Christopher Nolan,Jonathan Nolan,Matthew McConaughey,8.6,"1,223,979"
+Psycho,1h 49min," Horror
+,  Mystery
+,  Thriller
+",Alfred Hitchcock,Joseph Stefano,Anthony Perkins,8.5,"513,273"
+American History X,1h 59min," Crime
+,  Drama
+",Tony Kaye,David McKenna,Edward Norton,8.5,"917,720"
+City Lights,1h 27min," Comedy
+,  Drama
+,  Romance
+",Charles Chaplin,Charles Chaplin,Charles Chaplin,8.5,"138,998"
+Once Upon a Time in the West,2h 45min," Western
+",Sergio Leone,Sergio Donati,Henry Fonda,8.5,"260,692"
+Casablanca,1h 42min," Drama
+,  Romance
+,  War
+",Michael Curtiz,Julius J. Epstein,Humphrey Bogart,8.5,"458,628"
+Modern Times,1h 27min," Comedy
+,  Drama
+,  Family
+",Charles Chaplin,Charles Chaplin,Charles Chaplin,8.5,"180,662"
+The Intouchables,1h 52min," Biography
+,  Comedy
+,  Drama
+",Olivier Nakache,Olivier Nakache,François Cluzet,8.5,"640,914"
+The Pianist,2h 30min," Biography
+,  Drama
+,  Music
+",Roman Polanski,Ronald Harwood,Adrien Brody,8.5,"610,954"
+The Departed,2h 31min," Crime
+,  Drama
+,  Thriller
+",Martin Scorsese,William Monahan,Leonardo DiCaprio,8.5,"1,034,610"
+Terminator 2: Judgment Day,2h 17min," Action
+,  Sci-Fi
+",James Cameron,James Cameron,Arnold Schwarzenegger,8.5,"872,824"
+Back to the Future,1h 56min," Adventure
+,  Comedy
+,  Sci-Fi
+",Robert Zemeckis,Robert Zemeckis,Michael J. Fox,8.5,"891,256"
+Whiplash,1h 46min," Drama
+,  Music
+",Damien Chazelle,Damien Chazelle,Miles Teller,8.5,"577,346"
+Rear Window,1h 52min," Mystery
+,  Thriller
+",Alfred Hitchcock,John Michael Hayes,James Stewart,8.5,"382,287"
+Indiana Jones and the Raiders of the Lost Ark,1h 55min," Action
+,  Adventure
+",Steven Spielberg,Lawrence Kasdan,Harrison Ford,8.5,"779,024"
+Gladiator,2h 35min," Action
+,  Adventure
+,  Drama
+",Ridley Scott,David Franzoni,Russell Crowe,8.5,"1,163,108"
+The Lion King,1h 28min," Animation
+,  Adventure
+,  Drama
+",Roger Allers,Irene Mecchi,Matthew Broderick,8.5,"793,002"
+The Prestige,2h 10min," Drama
+,  Mystery
+,  Sci-Fi
+",Christopher Nolan,Jonathan Nolan,Christian Bale,8.5,"1,022,921"
+Apocalypse Now,2h 27min," Drama
+,  War
+",Francis Ford Coppola,John Milius,Martin Sheen,8.5,"527,739"
+Memento,1h 53min," Mystery
+,  Thriller
+",Christopher Nolan,Christopher Nolan,Guy Pearce,8.5,"997,576"
+Avengers: Infinity War,2h 29min," Action
+,  Adventure
+,  Fantasy
+",Anthony Russo,Christopher Markus,Robert Downey Jr.,8.6,"516,680"
+Alien,1h 56min," Horror
+,  Sci-Fi
+",Ridley Scott,Dan O'Bannon,Sigourney Weaver,8.5,"686,576"
+De dictator,2h 5min," Comedy
+,  Drama
+,  War
+",Charles Chaplin,Charles Chaplin,Charles Chaplin,8.5,"172,132"
+Nuovo Cinema Paradiso,2h 35min," Drama
+",Giuseppe Tornatore,Giuseppe Tornatore,Philippe Noiret,8.5,"191,474"
+Hotaru no haka,1h 29min," Animation
+,  Drama
+,  War
+",Isao Takahata,Akiyuki Nosaka,Tsutomu Tatsumi,8.5,"184,632"
+Sunset Blvd.,1h 50min," Drama
+,  Film-Noir
+",Billy Wilder,Charles Brackett,William Holden,8.4,"171,444"
+Das Leben der Anderen,2h 17min," Drama
+,  Thriller
+",Florian Henckel von Donnersmarck,Florian Henckel von Donnersmarck,Ulrich Mühe,8.4,"310,414"
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1h 35min," Comedy
+",Stanley Kubrick,Stanley Kubrick,Peter Sellers,8.4,"401,753"
+Paths of Glory,1h 28min," Drama
+,  War
+",Stanley Kubrick,Stanley Kubrick,Kirk Douglas,8.4,"148,920"
+The Shining,2h 26min," Drama
+,  Horror
+",Stanley Kubrick,Stephen King,Jack Nicholson,8.4,"745,527"
+Django Unchained,2h 45min," Drama
+,  Western
+",Quentin Tarantino,Quentin Tarantino,Jamie Foxx,8.4,"1,160,210"
+WALL·E,1h 38min," Animation
+,  Adventure
+,  Family
+",Andrew Stanton,Andrew Stanton,Ben Burtt,8.4,"869,541"
+Mononoke-hime,2h 14min," Animation
+,  Adventure
+,  Fantasy
+",Hayao Miyazaki,Hayao Miyazaki,Yôji Matsuda,8.4,"280,732"
+Witness for the Prosecution,1h 56min," Crime
+,  Drama
+,  Mystery
+",Billy Wilder,Agatha Christie,Tyrone Power,8.4,"86,229"
+American Beauty,2h 2min," Drama
+",Sam Mendes,Alan Ball,Kevin Spacey,8.4,"960,015"
+The Dark Knight Rises,2h 44min," Action
+,  Thriller
+",Christopher Nolan,Jonathan Nolan,Christian Bale,8.4,"1,338,897"
+Oldeuboi,2h," Action
+,  Drama
+,  Mystery
+",Chan-wook Park,Garon Tsuchiya,Min-sik Choi,8.4,"438,973"
+Aliens,2h 17min," Action
+,  Adventure
+,  Sci-Fi
+",James Cameron,James Cameron,Sigourney Weaver,8.4,"580,504"
+Coco,1h 45min," Animation
+,  Adventure
+,  Comedy
+",Lee Unkrich,Lee Unkrich,Anthony Gonzalez,8.4,"231,181"
+Once Upon a Time in America,3h 49min," Crime
+,  Drama
+",Sergio Leone,Harry Grey,Robert De Niro,8.4,"265,678"
+Das Boot,2h 29min," Adventure
+,  Drama
+,  Thriller
+",Wolfgang Petersen,Wolfgang Petersen,Jürgen Prochnow,8.4,"200,873"
+Citizen Kane,1h 59min," Drama
+,  Mystery
+",Orson Welles,Herman J. Mankiewicz,Orson Welles,8.4,"351,474"
+Braveheart,2h 58min," Biography
+,  Drama
+,  History
+",Mel Gibson,Randall Wallace,Mel Gibson,8.4,"864,654"
+Vertigo,2h 8min," Mystery
+,  Romance
+,  Thriller
+",Alfred Hitchcock,Alec Coppel,James Stewart,8.3,"306,654"
+North by Northwest,2h 16min," Adventure
+,  Mystery
+,  Thriller
+",Alfred Hitchcock,Ernest Lehman,Cary Grant,8.3,"261,646"
+Reservoir Dogs,1h 39min," Crime
+,  Drama
+,  Thriller
+",Quentin Tarantino,Quentin Tarantino,Harvey Keitel,8.3,"791,642"
+Star Wars: Episode VI - Return of the Jedi,2h 11min," Action
+,  Adventure
+,  Fantasy
+",Richard Marquand,Lawrence Kasdan,Mark Hamill,8.3,"829,575"
+Kimi no na wa.,1h 46min," Animation
+,  Drama
+,  Fantasy
+",Makoto Shinkai,Makoto Shinkai,Ryûnosuke Kamiki,8.4,"112,116"
+M - Eine Stadt sucht einen Mörder,1h 57min," Crime
+,  Mystery
+,  Thriller
+",Fritz Lang,Thea von Harbou,Peter Lorre,8.3,"121,946"
+Dangal,2h 41min," Action
+,  Biography
+,  Drama
+",Nitesh Tiwari,Piyush Gupta,Aamir Khan,8.5,"107,692"
+Requiem for a Dream,1h 42min," Drama
+",Darren Aronofsky,Hubert Selby Jr.,Ellen Burstyn,8.3,"676,718"
+Amadeus,2h 40min," Biography
+,  Drama
+,  History
+",Milos Forman,Peter Shaffer,F. Murray Abraham,8.3,"324,325"
+Taare Zameen Par,2h 45min," Drama
+,  Family
+",Aamir Khan,Amole Gupte,Darsheel Safary,8.4,"131,326"
+Lawrence of Arabia,3h 36min," Adventure
+,  Biography
+,  Drama
+",David Lean,T.E. Lawrence,Peter O'Toole,8.3,"232,645"
+Eternal Sunshine of the Spotless Mind,1h 48min," Drama
+,  Romance
+,  Sci-Fi
+",Michel Gondry,Charlie Kaufman,Jim Carrey,8.3,"793,854"
+A Clockwork Orange,2h 16min," Crime
+,  Drama
+,  Sci-Fi
+",Stanley Kubrick,Stanley Kubrick,Malcolm McDowell,8.3,"663,016"
+Amélie,2h 2min," Comedy
+,  Romance
+",Jean-Pierre Jeunet,Guillaume Laurant,Audrey Tautou,8.3,"630,729"
+3 Idiots,2h 50min," Comedy
+,  Drama
+",Rajkumar Hirani,Rajkumar Hirani,Aamir Khan,8.4,"284,469"
+Double Indemnity,1h 47min," Crime
+,  Drama
+,  Film-Noir
+",Billy Wilder,Billy Wilder,Fred MacMurray,8.3,"121,606"
+2001: A Space Odyssey,2h 29min," Adventure
+,  Sci-Fi
+",Stanley Kubrick,Stanley Kubrick,Keir Dullea,8.3,"519,676"
+Toy Story,1h 21min," Animation
+,  Adventure
+,  Comedy
+",John Lasseter,John Lasseter,Tom Hanks,8.3,"757,080"
+Taxi Driver,1h 54min," Crime
+,  Drama
+",Martin Scorsese,Paul Schrader,Robert De Niro,8.3,"611,438"
+Singin' in the Rain,1h 43min," Comedy
+,  Musical
+,  Romance
+",Stanley Donen,Betty Comden,Gene Kelly,8.3,"187,805"
+Full Metal Jacket,1h 56min," Drama
+,  War
+",Stanley Kubrick,Stanley Kubrick,Matthew Modine,8.3,"585,204"
+Inglourious Basterds,2h 33min," Adventure
+,  Drama
+,  War
+",Quentin Tarantino,Quentin Tarantino,Brad Pitt,8.3,"1,072,552"
+To Kill a Mockingbird,2h 9min," Crime
+,  Drama
+",Robert Mulligan,Harper Lee,Gregory Peck,8.3,"262,157"
+Ladri di biciclette,1h 29min," Drama
+",Vittorio De Sica,Cesare Zavattini,Lamberto Maggiorani,8.3,"120,247"
+The Kid,1h 8min," Comedy
+,  Drama
+,  Family
+",Charles Chaplin,Charles Chaplin,Charles Chaplin,8.3,"90,928"
+The Sting,2h 9min," Comedy
+,  Crime
+,  Drama
+",George Roy Hill,David S. Ward,Paul Newman,8.3,"211,173"
+Toy Story 3,1h 43min," Animation
+,  Adventure
+,  Comedy
+",Lee Unkrich,John Lasseter,Tom Hanks,8.3,"653,894"
+Good Will Hunting,2h 6min," Drama
+,  Romance
+",Gus Van Sant,Matt Damon,Robin Williams,8.3,"735,711"
+Jagten,1h 55min," Drama
+",Thomas Vinterberg,Tobias Lindholm,Mads Mikkelsen,8.3,"228,764"
+Snatch,1h 44min," Comedy
+,  Crime
+",Guy Ritchie,Guy Ritchie,Jason Statham,8.3,"696,376"
+Monty Python and the Holy Grail,1h 31min," Adventure
+,  Comedy
+,  Fantasy
+",Terry Gilliam,Graham Chapman,Graham Chapman,8.3,"444,994"
+Scarface,2h 50min," Crime
+,  Drama
+",Brian De Palma,Oliver Stone,Al Pacino,8.3,"638,832"
+Per qualche dollaro in più,2h 12min," Western
+",Sergio Leone,Sergio Leone,Clint Eastwood,8.3,"195,833"
+The Apartment,2h 5min," Comedy
+,  Drama
+,  Romance
+",Billy Wilder,Billy Wilder,Jack Lemmon,8.3,"136,601"
+L.A. Confidential,2h 18min," Crime
+,  Drama
+,  Mystery
+",Curtis Hanson,James Ellroy,Kevin Spacey,8.3,"478,832"
+Metropolis,2h 33min," Drama
+,  Sci-Fi
+",Fritz Lang,Thea von Harbou,Brigitte Helm,8.3,"137,158"
+Jodaeiye Nader az Simin,2h 3min," Crime
+,  Drama
+,  Family
+",Asghar Farhadi,Asghar Farhadi,Payman Maadi,8.3,"187,453"
+Indiana Jones and the Last Crusade,2h 7min," Action
+,  Adventure
+,  Fantasy
+",Steven Spielberg,Jeffrey Boam,Harrison Ford,8.3,"609,688"
+Rashômon,1h 28min," Crime
+,  Drama
+,  Mystery
+",Akira Kurosawa,Ryûnosuke Akutagawa,Toshirô Mifune,8.3,"127,953"
+Up,1h 36min," Animation
+,  Adventure
+,  Comedy
+",Pete Docter,Pete Docter,Edward Asner,8.3,"809,062"
+All About Eve,2h 18min," Drama
+",Joseph L. Mankiewicz,Joseph L. Mankiewicz,Bette Davis,8.3,"103,020"
+Yôjinbô,1h 50min," Action
+,  Drama
+,  Thriller
+",Akira Kurosawa,Akira Kurosawa,Toshirô Mifune,8.3,"92,566"
+Batman Begins,2h 20min," Action
+,  Adventure
+,  Thriller
+",Christopher Nolan,Bob Kane,Christian Bale,8.3,"1,151,243"
+Some Like It Hot,2h 1min," Comedy
+,  Romance
+",Billy Wilder,Billy Wilder,Marilyn Monroe,8.3,"211,286"
+Unforgiven,2h 10min," Drama
+,  Western
+",Clint Eastwood,David Webb Peoples,Clint Eastwood,8.2,"328,764"
+Der Untergang,2h 36min," Biography
+,  Drama
+,  History
+",Oliver Hirschbiegel,Bernd Eichinger,Bruno Ganz,8.2,"294,381"
+The Treasure of the Sierra Madre,2h 6min," Adventure
+,  Drama
+,  Western
+",John Huston,John Huston,Humphrey Bogart,8.3,"97,749"
+Die Hard,2h 12min," Action
+,  Thriller
+",John McTiernan,Roderick Thorp,Bruce Willis,8.2,"693,712"
+Heat,2h 50min," Crime
+,  Drama
+,  Thriller
+",Michael Mann,Michael Mann,Al Pacino,8.2,"506,714"
+Ikiru,2h 23min," Drama
+",Akira Kurosawa,Akira Kurosawa,Takashi Shimura,8.3,"55,742"
+Raging Bull,2h 9min," Biography
+,  Drama
+,  Sport
+",Martin Scorsese,Jake LaMotta,Robert De Niro,8.2,"277,727"
+Incendies,2h 11min," Drama
+,  Mystery
+,  War
+",Denis Villeneuve,Denis Villeneuve,Lubna Azabal,8.2,"116,082"
+The Great Escape,2h 52min," Adventure
+,  Drama
+,  History
+",John Sturges,Paul Brickhill,Steve McQueen,8.2,"198,230"
+Babam ve Oglum,1h 48min," Drama
+,  Family
+",Çagan Irmak,Çagan Irmak,Çetin Tekindor,8.4,"61,558"
+Bacheha-Ye aseman,1h 29min," Drama
+,  Family
+",Majid Majidi,Majid Majidi,Mohammad Amir Naji,8.3,"47,628"
+Pan's Labyrinth,1h 58min," Drama
+,  Fantasy
+,  War
+",Guillermo del Toro,Guillermo del Toro,Ivana Baquero,8.2,"553,210"
+Chinatown,2h 10min," Drama
+,  Mystery
+,  Thriller
+",Roman Polanski,Robert Towne,Jack Nicholson,8.2,"256,679"
+The Third Man,1h 44min," Film-Noir
+,  Mystery
+,  Thriller
+",Carol Reed,Graham Greene,Orson Welles,8.2,"138,111"
+Tonari no Totoro,1h 26min," Animation
+,  Family
+,  Fantasy
+",Hayao Miyazaki,Hayao Miyazaki,Hitoshi Takagi,8.2,"226,256"
+Ran,2h 42min," Action
+,  Drama
+",Akira Kurosawa,Akira Kurosawa,Tatsuya Nakadai,8.2,"95,692"
+Hauru no ugoku shiro,1h 59min," Animation
+,  Adventure
+,  Family
+",Hayao Miyazaki,Hayao Miyazaki,Chieko Baishô,8.2,"269,722"
+Oordeel te Neurenberg,3h 6min," Drama
+,  War
+",Stanley Kramer,Abby Mann,Spencer Tracy,8.2,"58,731"
+El secreto de sus ojos,2h 9min," Drama
+,  Mystery
+,  Romance
+",Juan José Campanella,Eduardo Sacheri,Ricardo Darín,8.2,"166,034"
+The Gold Rush,1h 35min," Adventure
+,  Comedy
+,  Drama
+",Charles Chaplin,Charles Chaplin,Charles Chaplin,8.2,"85,482"
+The Bridge on the River Kwai,2h 41min," Adventure
+,  Drama
+,  War
+",David Lean,Pierre Boulle,William Holden,8.2,"179,946"
+Bohemian Rhapsody,2h 14min," Biography
+,  Drama
+,  Music
+",Bryan Singer,Anthony McCarten,Rami Malek,8.4,"53,524"
+"Three Billboards Outside Ebbing, Missouri",1h 55min," Comedy
+,  Crime
+,  Drama
+",Martin McDonagh,Martin McDonagh,Frances McDormand,8.2,"290,468"
+A Beautiful Mind,2h 15min," Biography
+,  Drama
+",Ron Howard,Akiva Goldsman,Russell Crowe,8.2,"741,217"
+"Lock, Stock and Two Smoking Barrels",1h 47min," Comedy
+,  Crime
+",Guy Ritchie,Guy Ritchie,Jason Flemyng,8.2,"479,057"
+On the Waterfront,1h 48min," Crime
+,  Drama
+,  Thriller
+",Elia Kazan,Budd Schulberg,Marlon Brando,8.2,"124,019"
+Casino,2h 58min," Crime
+,  Drama
+",Martin Scorsese,Nicholas Pileggi,Robert De Niro,8.2,"399,141"
+Det sjunde inseglet,1h 36min," Drama
+,  Fantasy
+",Ingmar Bergman,Ingmar Bergman,Max von Sydow,8.2,"137,359"
+Inside Out,1h 35min," Animation
+,  Adventure
+,  Comedy
+",Pete Docter,Pete Docter,Amy Poehler,8.2,"504,436"
+The Elephant Man,2h 4min," Biography
+,  Drama
+",David Lynch,Christopher De Vore,Anthony Hopkins,8.2,"193,784"
+Room,1h 58min," Drama
+,  Thriller
+",Lenny Abrahamson,Emma Donoghue,Brie Larson,8.2,"291,277"
+Mr. Smith Goes to Washington,2h 9min," Comedy
+,  Drama
+",Frank Capra,Sidney Buchman,James Stewart,8.2,"94,686"
+The Wolf of Wall Street,3h," Biography
+,  Comedy
+,  Crime
+",Martin Scorsese,Terence Winter,Leonardo DiCaprio,8.2,"983,932"
+V for Vendetta,2h 12min," Action
+,  Drama
+,  Sci-Fi
+",James McTeigue,Lilly Wachowski,Hugo Weaving,8.2,"924,588"
+Warrior,2h 20min," Drama
+,  Sport
+",Gavin O'Connor,Gavin O'Connor,Tom Hardy,8.2,"392,144"
+Blade Runner,1h 57min," Sci-Fi
+,  Thriller
+",Ridley Scott,Hampton Fancher,Harrison Ford,8.2,"604,077"
+The General,1h 7min," Action
+,  Adventure
+,  Comedy
+",Clyde Bruckman,Buster Keaton,Buster Keaton,8.2,"68,488"
+Smultronstället,1h 31min," Drama
+,  Romance
+",Ingmar Bergman,Ingmar Bergman,Victor Sjöström,8.2,"80,141"
+Dial M for Murder,1h 45min," Crime
+,  Thriller
+",Alfred Hitchcock,Frederick Knott,Ray Milland,8.2,"134,856"
+Trainspotting,1h 33min," Drama
+",Danny Boyle,Irvine Welsh,Ewan McGregor,8.2,"570,885"
+No Country for Old Men,2h 2min," Crime
+,  Drama
+,  Thriller
+",Ethan Coen,Joel Coen,Tommy Lee Jones,8.1,"736,686"
+There Will Be Blood,2h 38min," Drama
+",Paul Thomas Anderson,Paul Thomas Anderson,Daniel Day-Lewis,8.1,"447,189"
+The Sixth Sense,1h 47min," Drama
+,  Mystery
+,  Thriller
+",M. Night Shyamalan,M. Night Shyamalan,Bruce Willis,8.1,"817,869"
+Gone with the Wind,3h 58min," Drama
+,  History
+,  Romance
+",Victor Fleming,Margaret Mitchell,Clark Gable,8.2,"255,544"
+The Thing,1h 49min," Horror
+,  Mystery
+,  Sci-Fi
+",John Carpenter,Bill Lancaster,Kurt Russell,8.1,"317,785"
+Fargo,1h 38min," Crime
+,  Drama
+,  Thriller
+",Joel Coen,Ethan Coen,William H. Macy,8.1,"541,746"
+Gran Torino,1h 56min," Drama
+",Clint Eastwood,Nick Schenk,Clint Eastwood,8.1,"650,780"
+The Deer Hunter,3h 3min," Drama
+,  War
+",Michael Cimino,Michael Cimino,Robert De Niro,8.1,"275,531"
+Finding Nemo,1h 40min," Animation
+,  Adventure
+,  Comedy
+",Andrew Stanton,Andrew Stanton,Albert Brooks,8.1,"833,970"
+Idi i smotri,2h 22min," Drama
+,  War
+",Elem Klimov,Ales Adamovich,Aleksey Kravchenko,8.2,"40,325"
+Sherlock Jr.,45min," Action
+,  Comedy
+,  Romance
+",Buster Keaton,Jean C. Havez,Buster Keaton,8.2,"30,009"
+The Big Lebowski,1h 57min," Comedy
+,  Crime
+",Joel Coen,Ethan Coen,Jeff Bridges,8.1,"636,927"
+Kill Bill: Vol. 1,1h 51min," Action
+,  Crime
+,  Thriller
+",Quentin Tarantino,Quentin Tarantino,Uma Thurman,8.1,"870,443"
+Shutter Island,2h 18min," Mystery
+,  Thriller
+",Martin Scorsese,Laeta Kalogridis,Leonardo DiCaprio,8.1,"962,226"
+Cool Hand Luke,2h 6min," Crime
+,  Drama
+",Stuart Rosenberg,Donn Pearce,Paul Newman,8.1,"142,938"
+Rebecca,2h 10min," Drama
+,  Mystery
+,  Romance
+",Alfred Hitchcock,Daphne Du Maurier,Laurence Olivier,8.1,"106,997"
+Tôkyô monogatari,2h 16min," Drama
+",Yasujirô Ozu,Kôgo Noda,Chishû Ryû,8.2,"40,909"
+Mary and Max,1h 32min," Animation
+,  Comedy
+,  Drama
+",Adam Elliot,Adam Elliot,Toni Collette,8.1,"145,915"
+Hacksaw Ridge,2h 19min," Biography
+,  Drama
+,  History
+",Mel Gibson,Robert Schenkkan,Andrew Garfield,8.1,"339,721"
+Sunrise: A Song of Two Humans,1h 34min," Drama
+,  Romance
+",F.W. Murnau,Carl Mayer,George O'Brien,8.2,"41,161"
+Gone Girl,2h 29min," Crime
+,  Drama
+,  Mystery
+",David Fincher,Gillian Flynn,Ben Affleck,8.1,"726,133"
+Hoe tem je een draak,1h 38min," Animation
+,  Action
+,  Adventure
+",Dean DeBlois,William Davies,Jay Baruchel,8.1,"583,240"
+Relatos salvajes,2h 2min," Comedy
+,  Drama
+,  Thriller
+",Damián Szifron,Germán Servidio,Darío Grandinetti,8.1,"141,630"
+Jurassic Park,2h 7min," Adventure
+,  Sci-Fi
+,  Thriller
+",Steven Spielberg,Michael Crichton,Sam Neill,8.1,"751,509"
+A Star Is Born,2h 16min," Drama
+,  Music
+,  Romance
+",Bradley Cooper,Eric Roth,Lady Gaga,8.3,"83,777"
+Into the Wild,2h 28min," Adventure
+,  Biography
+,  Drama
+",Sean Penn,Sean Penn,Emile Hirsch,8.1,"508,802"
+Life of Brian,1h 34min," Comedy
+",Terry Jones,Graham Chapman,Graham Chapman,8.1,"321,926"
+Eskiya,2h 8min," Crime
+,  Drama
+,  Thriller
+",Yavuz Turgul,Yavuz Turgul,Sener Sen,8.3,"52,496"
+Het gebeurde op 'n avond,1h 45min," Comedy
+,  Romance
+",Frank Capra,Robert Riskin,Clark Gable,8.1,"81,715"
+In the Name of the Father,2h 13min," Biography
+,  Drama
+",Jim Sheridan,Gerry Conlon,Daniel Day-Lewis,8.1,"136,291"
+Platoon,2h," Drama
+,  War
+",Oliver Stone,Oliver Stone,Charlie Sheen,8.1,"341,175"
+The Grand Budapest Hotel,1h 39min," Adventure
+,  Comedy
+,  Drama
+",Wes Anderson,Stefan Zweig,Ralph Fiennes,8.1,"606,549"
+Stand by Me,1h 29min," Adventure
+,  Drama
+",Rob Reiner,Stephen King,Wil Wheaton,8.1,"323,475"
+The Truman Show,1h 43min," Comedy
+,  Drama
+,  Sci-Fi
+",Peter Weir,Andrew Niccol,Jim Carrey,8.1,"804,221"
+Network,2h 1min," Drama
+",Sidney Lumet,Paddy Chayefsky,Faye Dunaway,8.1,"126,403"
+Stalker,2h 42min," Drama
+,  Sci-Fi
+",Andrei Tarkovsky,Arkadiy Strugatskiy,Alisa Freyndlikh,8.1,"92,650"
+Hotel Rwanda,2h 1min," Biography
+,  Drama
+,  History
+",Terry George,Keir Pearson,Don Cheadle,8.1,"305,557"
+Ben Hur,3h 32min," Adventure
+,  Drama
+,  History
+",William Wyler,Lew Wallace,Charlton Heston,8.1,"195,019"
+Persona,1h 25min," Drama
+,  Thriller
+",Ingmar Bergman,Ingmar Bergman,Bibi Andersson,8.1,"82,386"
+Salinui chueok,2h 11min," Action
+,  Crime
+,  Drama
+",Joon-ho Bong,Joon-ho Bong,Kang-ho Song,8.1,"94,484"
+12 Years a Slave,2h 14min," Biography
+,  Drama
+,  History
+",Steve McQueen,John Ridley,Chiwetel Ejiofor,8.1,"553,899"
+Andrei Rublev,3h 25min," Biography
+,  Drama
+,  History
+",Andrei Tarkovsky,Andrey Konchalovskiy,Anatoliy Solonitsyn,8.2,"36,419"
+Million Dollar Baby,2h 12min," Drama
+,  Sport
+",Clint Eastwood,Paul Haggis,Hilary Swank,8.1,"568,648"
+Le salaire de la peur,2h 11min," Adventure
+,  Drama
+,  Thriller
+",Henri-Georges Clouzot,Georges Arnaud,Yves Montand,8.1,"46,381"
+La passion de Jeanne d'Arc,1h 50min," Biography
+,  Drama
+,  History
+",Carl Theodor Dreyer,Joseph Delteil,Maria Falconetti,8.2,"38,497"
+Rang De Basanti,2h 37min," Comedy
+,  Drama
+",Rakeysh Omprakash Mehra,Renzil D'Silva,Aamir Khan,8.2,"96,507"
+Rush,2h 3min," Action
+,  Biography
+,  Drama
+",Ron Howard,Peter Morgan,Daniel Brühl,8.1,"379,678"
+Mad Max: Fury Road,2h," Action
+,  Adventure
+,  Sci-Fi
+",George Miller,George Miller,Tom Hardy,8.1,"742,315"
+Before Sunrise,1h 41min," Drama
+,  Romance
+",Richard Linklater,Richard Linklater,Ethan Hawke,8.1,"228,716"
+Les quatre cents coups,1h 39min," Crime
+,  Drama
+",François Truffaut,François Truffaut,Jean-Pierre Léaud,8.1,"88,643"
+Spotlight,2h 9min," Crime
+,  Drama
+,  History
+",Tom McCarthy,Josh Singer,Mark Ruffalo,8.1,"341,404"
+Hachi: A Dog's Tale,1h 33min," Drama
+,  Family
+",Lasse Hallström,Stephen P. Lindsey,Richard Gere,8.1,"212,460"
+Prisoners,2h 33min," Crime
+,  Drama
+,  Mystery
+",Denis Villeneuve,Aaron Guzikowski,Hugh Jackman,8.1,"502,301"
+Logan,2h 17min," Action
+,  Drama
+,  Sci-Fi
+",James Mangold,James Mangold,Hugh Jackman,8.1,"517,417"
+Amores perros,2h 34min," Drama
+,  Thriller
+",Alejandro G. Iñárritu,Guillermo Arriaga,Emilio Echevarría,8.1,"201,785"
+The Princess Bride,1h 38min," Adventure
+,  Family
+,  Fantasy
+",Rob Reiner,William Goldman,Cary Elwes,8.1,"345,813"
+Kaze no tani no Naushika,1h 57min," Animation
+,  Adventure
+,  Fantasy
+",Hayao Miyazaki,Hayao Miyazaki,Sumi Shimamoto,8.1,"122,797"
+Catch Me If You Can,2h 21min," Biography
+,  Crime
+,  Drama
+",Steven Spielberg,Jeff Nathanson,Leonardo DiCaprio,8.1,"681,291"
+Butch Cassidy and the Sundance Kid,1h 50min," Biography
+,  Crime
+,  Drama
+",George Roy Hill,William Goldman,Paul Newman,8.1,"181,282"
+Harry Potter and the Deathly Hallows: Part 2,2h 10min," Adventure
+,  Drama
+,  Fantasy
+",David Yates,Steve Kloves,Daniel Radcliffe,8.1,"663,285"
+Rocky,2h," Drama
+,  Sport
+",John G. Avildsen,Sylvester Stallone,Sylvester Stallone,8.1,"454,183"
+Barry Lyndon,3h 5min," Adventure
+,  Drama
+,  History
+",Stanley Kubrick,Stanley Kubrick,Ryan O'Neal,8.1,"126,789"
+"Monsters, Inc.",1h 32min," Animation
+,  Adventure
+,  Comedy
+",Pete Docter,Pete Docter,Billy Crystal,8.1,"708,703"
+The Grapes of Wrath,2h 9min," Drama
+,  History
+",John Ford,Nunnally Johnson,Henry Fonda,8.1,"78,419"
+The Maltese Falcon,1h 40min," Film-Noir
+,  Mystery
+",John Huston,John Huston,Humphrey Bogart,8.1,"136,310"
+Donnie Darko,1h 53min," Drama
+,  Sci-Fi
+,  Thriller
+",Richard Kelly,Richard Kelly,Jake Gyllenhaal,8.1,"678,753"
+Demonen,1h 57min," Crime
+,  Drama
+,  Horror
+",Henri-Georges Clouzot,Pierre Boileau,Simone Signoret,8.1,"54,437"
+The Terminator,1h 47min," Action
+,  Sci-Fi
+",James Cameron,James Cameron,Arnold Schwarzenegger,8.0,"703,844"
+Dead Poets Society,2h 8min," Comedy
+,  Drama
+",Peter Weir,Tom Schulman,Robin Williams,8.1,"348,775"
+Gandhi,3h 11min," Biography
+,  Drama
+,  History
+",Richard Attenborough,John Briley,Ben Kingsley,8.1,"201,899"
+Sanjuro,1h 36min," Action
+,  Crime
+,  Drama
+",Akira Kurosawa,Ryûzô Kikushima,Toshirô Mifune,8.2,"25,479"
+La haine,1h 38min," Crime
+,  Drama
+",Mathieu Kassovitz,Mathieu Kassovitz,Vincent Cassel,8.1,"127,542"
+Groundhog Day,1h 41min," Comedy
+,  Fantasy
+,  Romance
+",Harold Ramis,Danny Rubin,Bill Murray,8.0,"523,269"
+Le notti di Cabiria,1h 50min," Drama
+",Federico Fellini,Federico Fellini,Giulietta Masina,8.1,"37,093"
+Blade Runner 2049,2h 44min," Drama
+,  Mystery
+,  Sci-Fi
+",Denis Villeneuve,Hampton Fancher,Harrison Ford,8.0,"341,168"
+La La Land,2h 8min," Comedy
+,  Drama
+,  Music
+",Damien Chazelle,Damien Chazelle,Ryan Gosling,8.1,"400,722"
+The Wizard of Oz,1h 42min," Adventure
+,  Family
+,  Fantasy
+",Victor Fleming,Noel Langley,Judy Garland,8.0,"340,847"
+Jaws,2h 4min," Adventure
+,  Drama
+,  Thriller
+",Steven Spielberg,Peter Benchley,Roy Scheider,8.0,"493,226"
+The Help,2h 26min," Drama
+",Tate Taylor,Tate Taylor,Emma Stone,8.1,"379,691"
+Faa yeung nin wa,1h 38min," Drama
+,  Romance
+",Kar-Wai Wong,Kar-Wai Wong,Tony Chiu-Wai Leung,8.1,"100,377"
+Paper Moon,1h 42min," Comedy
+,  Crime
+,  Drama
+",Peter Bogdanovich,Joe David Brown,Ryan O'Neal,8.1,"35,884"
+Gangs of Wasseypur,5h 21min," Action
+,  Comedy
+,  Crime
+",Anurag Kashyap,Akhilesh Jaiswal,Manoj Bajpayee,8.2,"65,416"
+Mandariinid,1h 27min," Drama
+,  War
+",Zaza Urushadze,Tatjana Mülbeier,Lembit Ulfsak,8.2,"30,591"
+Before Sunset,1h 20min," Drama
+,  Romance
+",Richard Linklater,Richard Linklater,Ethan Hawke,8.1,"199,853"
+Ah-ga-ssi,2h 24min," Drama
+,  Romance
+,  Thriller
+",Chan-wook Park,Sarah Waters,Min-hee Kim,8.1,"68,698"
+"Paris, Texas",2h 25min," Drama
+",Wim Wenders,L.M. Kit Carson,Harry Dean Stanton,8.1,"70,166"
+Guardians of the Galaxy,2h 1min," Action
+,  Adventure
+,  Comedy
+",James Gunn,James Gunn,Chris Pratt,8.1,"883,945"
+The Bourne Ultimatum,1h 55min," Action
+,  Mystery
+,  Thriller
+",Paul Greengrass,Tony Gilroy,Matt Damon,8.0,"570,114"
+Pirates of the Caribbean: The Curse of the Black Pearl,2h 23min," Action
+,  Adventure
+,  Fantasy
+",Gore Verbinski,Ted Elliott,Johnny Depp,8.0,"937,977"
+A Wednesday,1h 44min," Crime
+,  Drama
+,  Mystery
+",Neeraj Pandey,Neeraj Pandey,Anupam Kher,8.2,"65,704"
+De beste jaren van ons leven,2h 50min," Drama
+,  Romance
+,  War
+",William Wyler,Robert E. Sherwood,Myrna Loy,8.1,"51,509"
+PK,2h 33min," Comedy
+,  Drama
+,  Sci-Fi
+",Rajkumar Hirani,Rajkumar Hirani,Aamir Khan,8.2,"129,389"
+Tenkû no shiro Rapyuta,2h 5min," Animation
+,  Adventure
+,  Fantasy
+",Hayao Miyazaki,Hayao Miyazaki,Anna Paquin,8.1,"121,682"
