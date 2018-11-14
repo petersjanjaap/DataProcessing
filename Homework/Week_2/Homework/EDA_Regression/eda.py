@@ -6,7 +6,6 @@ this script analyzes data obtained from a .csv file
 """
 
 # imports libraries
-import csv
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -14,6 +13,7 @@ import matplotlib.pyplot as plt
 
 # Global constants
 INPUT_CSV = "input.csv"
+
 
 def load_file(csv_file):
     """
@@ -27,23 +27,26 @@ def load_file(csv_file):
     # returns dataframe
     return df
 
+
 def num_var_clean(num_var):
     """
-    cleans numerical variables by dropping alphabetical characters and adjusting
-    data format to float type
+    cleans numerical variables by dropping alphabetical characters and
+    adjusting data format to float type
     """
 
     # restores dot format for float numbers
-    num_var = num_var.str.replace(',','.')
+    num_var = num_var.str.replace(',', '.')
 
     # drops all non-numerical and non-dot characters in observations
-    num_var = num_var.str.replace('[^0-9\.]','')
+    num_var = num_var.str.replace('[^0-9\\.]', '')
+    print(num_var)
 
     # converts numeric variables to float type
     num_var = pd.to_numeric(num_var, float)
 
     # returns the cleaned variable
     return num_var
+
 
 def string_clean(string_var):
     """
@@ -56,10 +59,12 @@ def string_clean(string_var):
     # returns cleaned string var
     return string_var
 
+
 def cent_tend_stats(var, var_name):
     """
     prints central tendency statistics for given variable from dataframe
     """
+
     print(f"Central tendency statics: {var_name}")
     print(f"MEAN {var_name}: {var.mean().round(2)}")
     print(f"MEDIAN {var_name}: {var.median()}")
@@ -82,19 +87,21 @@ def histogram(df, var_name):
     fig.suptitle(f'Histogram {var_name}', fontweight='bold')
     fig.savefig('histogram.pdf')
 
+
 def box_plot(df, var_name):
     """
     generates and saves a boxplot for given variable
     """
 
     # generates histogram for variable
-    boxplot = df.boxplot(column = var_name)
+    boxplot = df.boxplot(column=var_name)
     boxplot.set_ylabel('Observations')
 
     # saves boxplot to pdf
     fig = boxplot.get_figure()
     fig.suptitle(f'Boxplot {var_name}', fontweight='bold')
     fig.savefig('boxplot.pdf')
+
 
 def regress(df, x_var, y_var):
     """
@@ -110,13 +117,18 @@ def regress(df, x_var, y_var):
     for var in variables:
         df_regression[var] = np.log(df_regression[var])
 
+    print(df_regression)
+
+    # title name is to long to contain in plot description
+    title_name = f'Log-transformed regression plot {y_var} on {x_var}'
+
     # generate variables plot
-    plot = df_regression.plot(x = x_var, y = y_var, kind = 'scatter', grid = \
-                              True, title = f'Log-transformed regression plot \
-                              {y_var} on {x_var}')
+    plot = df_regression.plot(x=x_var, y=y_var, kind='scatter', grid=True,
+                              title=title_name)
 
     # generate regression plot
-    sns.regplot(x = x_var, y = y_var, data = df_regression)
+    # generates future warning due to changing functionalities in Python
+    sns.regplot(x=x_var, y=y_var, data=df_regression)
 
     # name axes
     plt.ylabel(f'log {y_var}')
@@ -125,6 +137,22 @@ def regress(df, x_var, y_var):
     # saves regression and variable plots to pdf
     fig = plot.get_figure()
     fig.savefig('regression.pdf')
+
+
+def json_save(df, index_var, save_title):
+    """
+    saves dataframe to json file using specified index variable
+    file is saved under title entered in function
+    """
+    # open new file to save
+    f = open(save_title, "w")
+
+    # set variable as index
+    df = df.set_index(index_var)
+
+    # create JSON datafile and save it
+    json_file = df.to_json(orient='index')
+    f.write(json_file)
 
 
 if __name__ == "__main__":
@@ -137,16 +165,16 @@ if __name__ == "__main__":
     df = load_file(INPUT_CSV)
 
     # keeps selected variables
-    df = df[['Country', 'Region', 'Pop. Density (per sq. mi.)', \
-            'Infant mortality (per 1000 births)', \
-            'GDP ($ per capita) dollars']]
+    df = df[['Country', 'Region', 'Pop. Density (per sq. mi.)',
+             'Infant mortality (per 1000 births)',
+             'GDP ($ per capita) dollars']]
 
     # rename variables
-    df.columns = ['Country', 'Region', 'Pop. Density', 'Infant Mortality'\
-                  , 'GDP']
+    df.columns = ['Country', 'Region', 'Pop. Density', 'Infant Mortality',
+                  'GDP']
 
     # groups of numeric and string variables
-    num_variables  = ['Pop. Density', 'Infant Mortality', 'GDP']
+    num_variables = ['Pop. Density', 'Infant Mortality', 'GDP']
     string_variables = ['Country', 'Region']
 
     # cleans numeric variables
@@ -157,7 +185,7 @@ if __name__ == "__main__":
     for var in string_variables:
         df[var] = string_clean(df[var])
 
-    # drops false outliers (Suriname's GDP is unrealistic)
+    # drops false outliers (Suriname's GDP equals $400000)
     df = df[df.Country != 'Suriname']
 
     # prints central tendency statistics for all numeric variables
@@ -177,8 +205,5 @@ if __name__ == "__main__":
     # regresses and plots Infant Mortalitity on GDP, results are saved as pdf
     regress(df, 'GDP', 'Infant Mortality')
 
-    # save dataframe as JSON file using country as index
-    f = open("clean_output.JSON","w")
-    df = df.set_index('Country')
-    json_file = df.to_json(orient = 'index')
-    f.write(json_file)
+    # save dataframe as JSON file using country as index as clean_output.JSON
+    json_save(df, 'Country', 'clean_output.JSON')
