@@ -1,2 +1,2 @@
 # DataProcessing
-https://github.com/petersjanjaap/DataProcessing/tree/master/Homework/Week_3/Homework/javascript.html
+https://petersjanjaap.github.io/DataProcessing/Homework/Week_3/Homework/javascript.html
