@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <h1>JavaScript intro</h1>
+      <h2>Jan Peters 10452125</h2>
+      <h5>Data source: http://databank.worldbank.org/data/source/world-development-indicators#</h5>
+      <h3> GDP (per capita) in dollars for the USA from 1998-2017</h3>
+      <canvas
+         id="myCanvas" width="1000" height="600" line style="border:1px
+         solid #000000;"></canvas>
+      <script>
+         // saves canvas format
+         canvas_width = 1000;
+         canvas_height = 600;
+
+         // correction to plot graph
+         x_correction = 50;
+         y_correction = 20;
+
+         // creates framework for canvas
+         var c = document.getElementById("myCanvas");
+         var ctx = c.getContext("2d");
+
+
+         // filename of datafile to import
+         var fileName = "worldbank_data.json";
+
+
+         // returns x and y observations for a given json object
+         function fill_x_y(jsonObj){
+
+           var x_axis = [];
+           var y_axis = [];
+           for (let key in jsonObj) {
+             if (jsonObj.hasOwnProperty(key)) {
+
+               // add x and y observations for each key to lists
+               x_axis.push(parseInt(jsonObj[key].Year, 10));
+               y_axis.push(parseFloat(jsonObj[key].GDP_capita));
+             }
+           }
+           return [x_axis, y_axis]
+         }
+
+         // returns minimum and maximum values for given variable
+         function min_max(axis) {
+
+           // domain is an array of the data bounds [domain_min, domain_max]
+           domain = [Math.min.apply(null, axis), Math.max.apply(null, axis)];
+           return domain;
+         }
+
+         /*
+         x and y obs are transformed to coordinates using the x and y ratios of
+         the range of variable observations to the canvas screen bounds
+         and corrections for start of graph coordinates
+         */
+         function x_coordinate(x_obs, x_ratio_used, x_minimum) {
+            x_crd = (x_obs - x_minimum) * x_ratio_used + x_correction;
+            return x_crd;
+         }
+
+         function y_coordinate(y_obs, ratio) {
+            y_crd = canvas_height - (y_obs * ratio + y_correction);
+            return y_crd
+         }
+
+         // strokes graph using x and y start and destination coordinates
+         function stroke_graph(canvas, start, destination) {
+
+           // sets layout
+           canvas.strokeStyle = 'black';
+           canvas.lineWidth = 1;
+
+           // coordinates are formatted as [x, y]
+           canvas.beginPath();
+           canvas.moveTo(start[0], start[1]);
+           canvas.lineTo(destination[0], destination[1]);
+           canvas.stroke();
+         }
+
+         function layout(canvas, strokes, x_domain, y_domain) {
+
+           // text design
+           canvas.strokeStyle = 'grey';
+           canvas.font = "20px Times";
+           canvas.fillStyle = "black";
+
+           // add x and y labels
+           canvas.fillText("Year", (canvas_width-100),
+                         canvas_height - y_correction);
+           canvas.rotate(-90 * Math.PI / 180);
+           canvas.textAlign = "center";
+           canvas.fillText("GDP per capita in $", -80, x_correction + 20);
+           canvas.rotate(90 * Math.PI / 180);
+
+           // draw x and y axes
+           canvas.beginPath();
+
+           // draws x axis and adds x label
+           canvas.moveTo(50, 0);
+           canvas.lineTo(50, canvas_height);
+
+           // draws x axis
+           canvas.moveTo(0, (canvas_height - 20));
+           canvas.lineTo(canvas_width, (canvas_height - 20));
+           canvas.stroke();
+
+           // iterates over size of canvas
+           for (let i = canvas_height / strokes; i < canvas_height;
+                i += canvas_height / strokes) {
+
+             // calculates relative position on graph
+             ratio = i / canvas_height
+
+             // adds rounded years on the x_axis
+             canvas.textAlign = "bottom";
+             x_info = (Math.round((x_domain[1] - x_domain[0]) * ratio))
+                       + x_domain[0]
+             canvas.fillText(x_info, canvas_width * ratio, canvas_height)
+
+             // adds rounded numbers (in dollars) on the y axis of graph
+             canvas.textAlign = "left";
+             y_info = Math.round(y_domain[1] * ratio / 100) * 100
+             canvas.fillText(y_info, 0, canvas_height - (canvas_height * ratio))
+
+             // adds next part of grid
+             canvas.beginPath();
+             canvas.moveTo(x_correction, i);
+             canvas.lineTo(canvas_width, i);
+             canvas.lineWidth = 0.4
+             canvas.stroke();
+           }
+         }
+
+         // XMLHttpRequest is made to request json object
+         var xmlhttp = new XMLHttpRequest();
+         xmlhttp.onreadystatechange = function() {
+
+           // checks status of XMLHttpRequest
+           if (this.readyState == 4 && this.status == 200) {
+
+             // parses the information from json file
+             var jsonObj = JSON.parse(this.response);
+
+             // obtains axes and there domains (minima to maxima)
+             axes = fill_x_y(jsonObj);
+             x_axis = axes[0]
+             y_axis = axes[1]
+
+             // domain contains minimum and maximum values for variable
+             x_domain = min_max(x_axis);
+             y_domain = [0, min_max(y_axis)[1]];
+
+             // calculates ratio for axes observations to canvas bounds
+             // x range should go from lowest to highest x variable observation
+             x_ratio = (canvas_width - x_correction) /
+                       (x_domain[1] - x_domain[0])
+             x_min = x_domain[0]
+
+             // y range displayed should range from 0 - to maximum y observation
+             y_ratio = (canvas_height - y_correction) / y_domain[1]
+
+             /*
+             strokes the graph by moving from starting coordinates to next
+             coordinates x axis range is plotted relative to lowest observations
+             */
+             for (let i = 0; i < (x_axis.length - 1); i++) {
+
+               start_crd = [x_coordinate(x_axis[i], x_ratio, x_min),
+                            y_coordinate(y_axis[i], y_ratio)]
+
+               // destination coordinates
+               destination_crd = [x_coordinate(x_axis[i + 1], x_ratio, x_min),
+                                  y_coordinate(y_axis[i + 1], y_ratio)]
+
+               // strokes graph using coordinates
+               stroke_graph(ctx, start_crd, destination_crd)
+             }
+
+             // add layout with strokes displayed ten times
+             let strokes = 10
+             layout(ctx, strokes, x_domain, y_domain)
+           }
+         }
+
+         xmlhttp.open("GET", fileName);
+         xmlhttp.send();
+      </script>
+   </body>
+</html>
