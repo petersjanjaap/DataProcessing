@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <style media="screen">
+      .bar {
+        fill: darkblue;
+        stroke: grey;
+        stroke-width: 2s;
+      }
+      /*
+      source: https://bl.ocks.org/caravinden/d04238c4c9770020ff6867ee92c7dac1
+       */
+      .bar:hover {
+    	  fill: darkred;
+    	}
+      .label {
+        color: black;
+        font-weight: bold;
+      }
+     </style>
+      <script type="text/javascript" src="https://d3js.org/d3.v5.js"></script>
+   </head>
+   <title>
+     "GDP per capita"
+   </title>
+   <head>
+     Jan Peters<br>
+     10452125<br>
+   </head>
+   <h2>
+   A selection of Eurozone countries and their GDP per capita in $ in 2010
+ </h2>
+   <body>
+      <script>
+         //width and height for svg and bar chart
+         var w = 800;
+         var h = 500;
+         var padding = 60;
+         var x_width = w - 2 * padding
+         var y_height = h - 1.5 * padding
+
+         /*
+         this part declares all the functions for the script
+         */
+
+         // returns x and y observations for a given json object
+         function fill_x_y(jsonObj){
+           var x_axis = [];
+           var y_axis = [];
+           for (var key in jsonObj) {
+             if (jsonObj.hasOwnProperty(key)) {
+
+               // add x and y observations for each key to lists
+               x_axis.push(jsonObj[key].Country);
+               y_axis.push(Math.round(parseFloat(jsonObj[key].GDP_capita)));
+             }
+           }
+           return [x_axis, y_axis]
+         }
+
+         // calculates the ordinal scale for a discrete variable
+         function ordinal_scaling(variable) {
+           var ordinal_range = [];
+           for (var i = 0; i < variable.length + 1; i++) {
+             var coordinate = padding + i * x_width / variable.length
+             ordinal_range.push(coordinate)
+           }
+           ordinal_scaler = d3.scaleOrdinal()
+                   .domain(variable)
+                   .range(ordinal_range);
+           return ordinal_scaler
+         }
+
+         // generates linear scale for variable
+         function linear_scaling(variable) {
+           linear_scaler = d3.scaleLinear()
+                  .domain([0, d3.max(variable, function(d) { return d; })])
+                  .range([y_height, padding]);
+           return linear_scaler
+         }
+
+         // draws bars on an svg
+         function bar(svg, obs, scaling){
+           svg.selectAll("rect")
+              .data(obs)
+              .enter()
+              .append("rect")
+              .attr("class", "bar")
+              .attr("x", function(d, i) {
+                 return padding + i * (x_width / obs.length);
+              })
+              .attr("y", function(d) { return scaling(d); })
+              .attr("width", x_width / obs.length )
+              .attr("height", function(d) { return y_height - scaling(d); })
+         }
+
+         /*
+         start of main function
+         */
+
+         // imports json file from library
+         d3.json("worldbank_data.json").then(function(data) {
+
+           // load data on country (x) and gdp (y) variables
+           axes = fill_x_y(data)
+           country = axes[0]
+           gdp = axes[1]
+
+           //create SVG element
+           var svg = d3.select("body")
+                       .append("svg")
+                       .attr("width", w)
+                       .attr("height", h)
+
+           // obtains ordinale scale for country on x axis using function
+           x_scale = ordinal_scaling(country)
+
+           // obtains linear scale for gdp
+           y_scale = linear_scaling(gdp)
+
+           // draw bars on sgv using y_scale
+           bar(svg, gdp, y_scale);
+
+           // draw y axis
+           svg.append("g")
+              .attr("transform", "translate(" + padding + ", 0)")
+              .call(d3.axisLeft(y_scale))
+
+          // draw x axis
+          svg.append("g")
+             .attr("transform", "translate(0," + y_height + ")")
+             .call(d3.axisBottom(x_scale)
+                      .tickSize(10))
+              .selectAll("text")
+              .attr("y", 0)
+              .attr("x", 9)
+
+              // source for rotation: https://bl.ocks.org/mbostock/4403522
+              .attr("dy", ".35em")
+              .attr("transform", "rotate(50)")
+              .style("text-anchor", "start");
+
+          // add label to x axis
+          svg.append("text")
+             .attr("class", "label")
+             .attr("x", x_width / 2 )
+             .attr("y", h - (h - y_height) / 7 )
+             .text("Selected countries in Eurozone");
+
+          // add label to y axis
+          svg.append("text")
+             .attr("class", "label")
+             .attr("transform", "rotate(-90)")
+
+             /*
+             x and y coordinates are rotated, so x and y coordinates are vice
+             versa entered
+             */
+             .attr("y", 10)
+             .attr("x", 0 - y_height / 2)
+             .attr("dy", ".35em")
+             .style("text-anchor", "middle")
+             .text("GDP per Capita in $");
+         })
+      </script>
+   </body>
+</html>
