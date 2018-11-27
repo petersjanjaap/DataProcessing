@@ -1,34 +1,38 @@
 <!DOCTYPE html>
+<!-- sources are mentioned by link pastes, standard d3 feautures are all based
+   D3 tutorial by Scott Murray, http://alignedleft.com/tutorials/d3 -->
 <html>
    <head>
-     <style media="screen">
-      .bar {
-        fill: darkblue;
-        stroke: grey;
-        stroke-width: 2s;
-      }
-      /*
-      source: https://bl.ocks.org/caravinden/d04238c4c9770020ff6867ee92c7dac1
-       */
-      .bar:hover {
-    	  fill: darkred;
-    	}
-      .label {
-        color: black;
-        font-weight: bold;
-      }
-     </style>
+      <title>
+         "GDP per capita"
+      </title>
+      <style media="screen">
+         .bar {
+         fill: darkblue;
+         stroke: grey;
+         stroke-width: 2s;
+         }
+         /*
+         source: https://bl.ocks.org/caravinden/d04238c4c9770020ff6867ee92c7dac1
+         */
+         .bar:hover {
+         fill: darkred;
+         }
+         .label {
+         color: black;
+         font-weight: bold;
+         }
+      </style>
       <script type="text/javascript" src="https://d3js.org/d3.v5.js"></script>
-      Jan Peters<br>
-      10452125<br>
    </head>
-   <title>
-     "GDP per capita"
-   </title>
-   <h2>
-   A selection of Eurozone countries and their GDP per capita in $ in 2010
- </h2>
    <body>
+      <h5>
+         Jan Peters<br>
+         10452125<br>
+      </h5>
+      <h2>
+         A selection of Eurozone countries and their GDP per capita in $ in 2010
+      </h2>
       <script>
          //width and height for svg and bar chart
          var w = 800;
@@ -36,6 +40,12 @@
          var padding = 60;
          var x_width = w - 2 * padding
          var y_height = h - 1.5 * padding
+
+         // adds tooltip variable, source: https://codepen.io/jackdbd/pen/NAEdBG
+         var tooltip = d3.select('body').append('div')
+          .attr('class', 'tooltip')
+          .style('opacity', 30);
+
 
          /*
          this part declares all the functions for the script
@@ -78,7 +88,7 @@
          }
 
          // draws bars on an svg
-         function bar(svg, obs, scaling){
+         function bar_generator(svg, obs, scaling){
            svg.selectAll("rect")
               .data(obs)
               .enter()
@@ -90,6 +100,15 @@
               .attr("y", function(d) { return scaling(d); })
               .attr("width", x_width / obs.length )
               .attr("height", function(d) { return y_height - scaling(d); })
+
+              // source for tooltip: https://codepen.io/jackdbd/pen/NAEdBG
+              .on('mouseover', (d) => {
+                tooltip.transition().duration(200).style('opacity', 0.9);
+                tooltip.html(`$ <span>${d}</span>`)
+                .style('left', `${d3.event.layerX}px`)
+                .style('top', `${(d3.event.layerY - 20)}px`);
+              })
+              .on('mouseout', () => tooltip.transition().duration(200).style('opacity', 0));
          }
 
          /*
@@ -117,7 +136,7 @@
            y_scale = linear_scaling(gdp)
 
            // draw bars on sgv using y_scale
-           bar(svg, gdp, y_scale);
+           bar_generator(svg, gdp, y_scale);
 
            // draw y axis
            svg.append("g")
@@ -129,11 +148,10 @@
              .attr("transform", "translate(0," + y_height + ")")
              .call(d3.axisBottom(x_scale)
                       .tickSize(10))
+              // source for rotation: https://bl.ocks.org/mbostock/4403522
               .selectAll("text")
               .attr("y", 0)
               .attr("x", 9)
-
-              // source for rotation: https://bl.ocks.org/mbostock/4403522
               .attr("dy", ".35em")
               .attr("transform", "rotate(50)")
               .style("text-anchor", "start");
@@ -159,6 +177,13 @@
              .attr("dy", ".35em")
              .style("text-anchor", "middle")
              .text("GDP per Capita in $");
+
+         // source for tooltip attribute: https://codepen.io/jackdbd/pen/NAEdBG
+         var div = d3
+           .select('body')
+           .append('div')
+           .attr('class', 'tooltip')
+           .style('opacity', 0);
          })
       </script>
    </body>
