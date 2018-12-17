@@ -1,5 +1,5 @@
 //width and height for svg containing graph
-var w = 800;
+var w = 700;
 var h = 500;
 var padding = 60;
 var xWidth = w - 2 * padding;
