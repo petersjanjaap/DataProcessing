@@ -1,0 +1,12 @@
+body {
+  background: grey;
+}
+
+svg.pie {
+  position: relative;
+  position: top;
+  vertical-align: top;
+}
+svg.chart {
+  position: static;
+}
